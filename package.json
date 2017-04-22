@@ -1,0 +1,19 @@
+{
+  "name": "node-subititles",
+  "version": "1.0.0",
+  "description": "Simple way to download subtitles",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dicanoza/node-subititles.git"
+  },
+  "author": "dicanoza",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dicanoza/node-subititles/issues"
+  },
+  "homepage": "https://github.com/dicanoza/node-subititles#readme"
+}
