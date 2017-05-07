@@ -19,5 +19,8 @@
   "dependencies": {
     "hasha": "^2.2.0",
     "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
   }
 }
