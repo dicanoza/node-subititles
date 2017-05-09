@@ -58,11 +58,12 @@ module.exports = {
             if (!error && response.statusCode == 200) {
                 name = name.substring(0, name.length - 4);
                 //just logging the subttitles found
-                console.log(name + body)
+                console.log('>>>>>> FOUND <<<<<<' + name)
                 fs.writeFileSync(name + ".srt", body);
 
+            }else{
+                console.log('NOT FOUND --- ' + path.basename(name))
             }
-            //TODO something when do not find the the subtitle
         })
 
     },
